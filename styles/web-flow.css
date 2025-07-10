@@ -209,22 +209,22 @@ h2 {
     font-size: 97px;
     font-weight: bold;
     padding: 0px 30px;
+    padding-top: 100px;
 
 }
 .touch input[type="text"], .touch input[type="email"]{
-    border-color: rgba(214, 221, 237, 1);
-    height: 45px;
+    border-color: rgba(214, 221, 237, 0.262);
+    height: 35px;
     border-radius: 10px;
     background-color: white;
     display: block;
     width: 497px;
     padding: 20px 32px;
     margin-bottom: 24px;
-
 }
 .touch textarea{
     border-color: rgba(214, 221, 237, 1);
-    height: 130px;
+    height: 110px;
     border-radius: 10px;
     background-color: white;
     display: block;
@@ -240,6 +240,7 @@ h2 {
     font-weight: 400;
 }
 .touch-button{
-    width: 510px;
-    height: 45px;
+    width: 562px;
+    height: 75px;
+    font-size: 16px;
 }
