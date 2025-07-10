@@ -1,0 +1,117 @@
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* head styles */
+.main-color{
+    color: #4E47FF;
+}
+
+.nav-title{
+    font-size: 34px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 50px 150px;
+}
+/* button styles */
+.btn-primary{
+    background-color: #4E47FF;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 12px 30px; 
+    font-weight: bold;
+}
+body{
+    height: 100%;
+    gap: none;
+}
+.secondary-bg{
+    background-image: url('../images/Hero-bg.png');
+    width: auto;
+    height: 698px;
+    background-position: top;
+    background-repeat: none;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+/* banner */
+.banner{
+    text-align: center;
+    padding: 37px;
+    margin: 0px 30px;
+}
+.banner-content{
+    display: flex;
+    padding: 267px;
+    
+}
+.banner-title{
+    font-size: 65px;
+    margin: 0px 267px;
+}
+.focused{
+    margin-top: 37px;
+}
+/* action styles */
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 141px;
+    gap: 220px;
+}
+.action-title{
+    font-size: 42px;
+}
+.action-pic{
+    border-radius: 48px;
+}
+.action-description{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    margin-right: 70px;
+}
+/* productive section */
+.productive{
+    text-align: center;
+    margin: 116px;
+    margin-top: 195px;
+    padding: 50px;
+    background-color: rgba(77, 71, 255, 0.401);
+    border-radius: 24px;
+}
+.productive-title{
+    font-size: 38px;
+    font-weight: bold;
+}
+.productive-div{
+    display: flex;
+    justify-content: space-around ;
+}
+.productive-content p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.productive-count{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.productive-description{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
