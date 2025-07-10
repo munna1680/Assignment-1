@@ -1,44 +1,51 @@
-.inter-normal{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 
 .raleway-normal {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+html{
+    background-color: rgba(245, 248, 255, 1);
 }
 /* head styles */
-.main-color{
+.main-color {
     color: #4E47FF;
 }
 
-.nav-title{
+.nav-title {
     font-size: 34px;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
     margin: 50px 150px;
 }
+
 /* button styles */
-.btn-primary{
+.btn-primary {
     background-color: #4E47FF;
     font-size: 16px;
     border-radius: 10px;
     border: none;
     color: white;
-    padding: 12px 30px; 
+    padding: 12px 30px;
     font-weight: bold;
 }
-body{
+
+body {
     height: 100%;
     gap: none;
 }
-.secondary-bg{
+
+.secondary-bg {
     background-image: url('../images/Hero-bg.png');
     width: auto;
     height: 698px;
@@ -48,44 +55,53 @@ body{
     margin: 0px;
     padding: 0px;
 }
+
 /* banner */
-.banner{
+.banner {
     text-align: center;
     padding: 37px;
     margin: 0px 30px;
 }
-.banner-content{
+
+.banner-content {
     display: flex;
     padding: 267px;
-    
+
 }
-.banner-title{
+
+.banner-title {
     font-size: 65px;
     margin: 0px 267px;
 }
-.focused{
+
+.focused {
     margin-top: 37px;
 }
+
 /* action styles */
-.action{
+.action {
     display: flex;
     justify-content: space-between;
     margin: 141px;
     gap: 220px;
 }
-.action-title{
+
+.action-title {
     font-size: 42px;
 }
-.action-pic{
+
+.action-pic {
     border-radius: 48px;
 }
-.action-description{
+
+.action-description {
     font-size: 24px;
     color: rgba(37, 36, 50, 0.5);
     margin-right: 70px;
 }
+
 /* productive section */
-.productive{
+.productive {
     text-align: center;
     margin: 116px;
     margin-top: 195px;
@@ -93,25 +109,137 @@ body{
     background-color: rgba(77, 71, 255, 0.401);
     border-radius: 24px;
 }
-.productive-title{
+
+.productive-title {
     font-size: 38px;
     font-weight: bold;
 }
-.productive-div{
+
+.productive-div {
     display: flex;
-    justify-content: space-around ;
+    justify-content: space-around;
 }
-.productive-content p{
+
+.productive-content p {
     margin: 0px;
     padding: 0px;
 }
 
-.productive-count{
+.productive-count {
     font-size: 80px;
     font-weight: bold;
     color: #4E47FF;
 }
-.productive-description{
+
+.productive-description {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
+}
+
+/* challange part */
+
+h2 {
+    text-align: center;
+    margin: 40px 0 20px;
+    color: #222;
+}
+.challenge1{
+    justify-items: center;
+    margin-bottom: 50px;
+}
+.challenge1-title{
+    font-size: 42px;
+    font-weight: bold;
+}
+.challenge1-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    /* max-width: 1000px; */
+    /* padding: 20px; */
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+.card h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.reviewer img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.reviewer-info {
+    font-size: 13px;
+    color: #777;
+}
+
+/* touch styles */
+.touch{
+    display: flex;
+    justify-content: space-between;
+    margin: 150px;
+}
+.touch-gap{
+    gap: 60px;
+    text-align:left;
+}
+.touch-head{
+    font-size: 97px;
+    font-weight: bold;
+    padding: 0px 30px;
+
+}
+.touch input[type="text"], .touch input[type="email"]{
+    border-color: rgba(214, 221, 237, 1);
+    height: 45px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 497px;
+    padding: 20px 32px;
+    margin-bottom: 24px;
+
+}
+.touch textarea{
+    border-color: rgba(214, 221, 237, 1);
+    height: 130px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 497px;
+    padding: 20px 32px;
+    margin-bottom: 24px;
+}
+::placeholder{
+    font-size: 20px;
+}
+.touch-font{
+    font-size: 18px;
+    font-weight: 400;
+}
+.touch-button{
+    width: 510px;
+    height: 45px;
 }
