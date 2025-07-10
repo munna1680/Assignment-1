@@ -10,7 +10,7 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
-html{
+body{
     background-color: rgba(245, 248, 255, 1);
 }
 /* head styles */
@@ -243,4 +243,36 @@ h2 {
     width: 562px;
     height: 75px;
     font-size: 16px;
+}
+/* footer */
+footer{
+    margin-top: 100px;
+}
+.footer{
+    text-align: center;
+    background-color: white;
+    padding: 120px;
+}
+.footer-title{
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: 800;
+    margin: 8px;
+    padding: 0px;
+}
+footer .footer-div{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+.footer-para{
+    color: rgba(137, 135, 161, 1);
+    font-size: 19px;
+    font-weight: 300;
+    margin: 0px 330px;
+}
+.footer-last{
+    color: rgba(137, 135, 161, 1);
+    font-size: 19px;
+    font-weight: 300;
 }
