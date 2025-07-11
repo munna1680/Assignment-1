@@ -308,6 +308,8 @@ footer .footer-div {
     color: rgba(137, 135, 161, 1);
     font-size: 19px;
     font-weight: 300;
+    text-decoration: none;
+    margin-top: 20px;
 }
 
 /* no mark */
