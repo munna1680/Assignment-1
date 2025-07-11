@@ -13,7 +13,9 @@
 
 body {
     background-color: rgba(245, 248, 255, 1);
+    /* margin-top: -50px; */
 }
+
 
 /* head styles */
 .main-color {
@@ -22,13 +24,15 @@ body {
 
 .nav-title {
     font-size: 34px;
+    font-weight: 800;
+
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 150px;
+    margin: 0px 150px;
 }
 
 /* button styles */
@@ -61,6 +65,7 @@ nav {
     text-align: center;
     padding: 37px;
     margin: 0px 30px;
+    margin-top: 150px;
 }
 
 .banner-content {
@@ -112,6 +117,7 @@ nav {
 .productive-title {
     font-size: 38px;
     font-weight: bold;
+    margin-top: -10px;
 }
 
 .productive-div {
@@ -326,7 +332,7 @@ footer .footer-div {
 .no-mark-para {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
-    margin-top: 0;
+    margin-top: -20px;
 }
 
 .no-mark-button {
@@ -340,5 +346,6 @@ footer .footer-div {
     cursor: pointer;
     color: black;
     transition-duration: 0.4s;
-    transform: translateX(2px);
+    transform:translateX(2px);
+    box-shadow: 3px 3px 3px;
 }
