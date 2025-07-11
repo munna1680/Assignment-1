@@ -280,3 +280,29 @@ footer .footer-div{
     font-size: 19px;
     font-weight: 300;
 }
+/* no mark */
+.no-mark{
+    justify-items: center;
+    margin: 151px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+}
+.no-mark-title{
+    font-size: 50px;
+    font-weight: bold;
+    padding: none;
+}
+.no-mark-pic{
+    border-radius: 48px;
+}
+.no-mark-para{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0;
+}
+.no-mark-button{
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
