@@ -10,9 +10,11 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
-body{
+
+body {
     background-color: rgba(245, 248, 255, 1);
 }
+
 /* head styles */
 .main-color {
     color: #4E47FF;
@@ -138,14 +140,17 @@ h2 {
     text-align: center;
     color: #222;
 }
-.challenge1{
+
+.challenge1 {
     justify-items: center;
     margin-bottom: 50px;
 }
-.challenge1-title{
+
+.challenge1-title {
     font-size: 42px;
     font-weight: bold;
 }
+
 .challenge1-container {
     display: flex;
     justify-content: space-around;
@@ -153,16 +158,20 @@ h2 {
     /* max-width: 1000px; */
     /* padding: 20px; */
 }
-.challenge1-container .ag-font{
+
+.challenge1-container .ag-font {
     font-size: 27px;
     font-weight: 600;
 }
-.challenge1-container .reviewer-info{
+
+.challenge1-container .reviewer-info {
     font-size: 19px;
 }
-.challenge1-container .ag-font-para{
+
+.challenge1-container .ag-font-para {
     font-size: 18px;
 }
+
 .card {
     background-color: white;
     border-radius: 10px;
@@ -200,23 +209,27 @@ h2 {
 }
 
 /* touch styles */
-.touch{
+.touch {
     display: flex;
     justify-content: space-between;
     margin: 150px;
 }
-.touch-gap{
+
+.touch-gap {
     gap: 60px;
-    text-align:left;
+    text-align: left;
 }
-.touch-head{
+
+.touch-head {
     font-size: 97px;
     font-weight: bold;
     padding: 0px 30px;
     padding-top: 100px;
 
 }
-.touch input[type="text"], .touch input[type="email"]{
+
+.touch input[type="text"],
+.touch input[type="email"] {
     border-color: rgba(214, 221, 237, 0.262);
     height: 35px;
     border-radius: 10px;
@@ -226,7 +239,8 @@ h2 {
     padding: 20px 32px;
     margin-bottom: 24px;
 }
-.touch textarea{
+
+.touch textarea {
     border-color: rgba(214, 221, 237, 1);
     height: 110px;
     border-radius: 10px;
@@ -236,73 +250,95 @@ h2 {
     padding: 20px 32px;
     margin-bottom: 24px;
 }
-::placeholder{
+
+::placeholder {
     font-size: 20px;
 }
-.touch-font{
+
+.touch-font {
     font-size: 18px;
     font-weight: 400;
 }
-.touch-button{
+
+.touch-button {
     width: 562px;
     height: 75px;
     font-size: 16px;
 }
+
 /* footer */
-footer{
+footer {
     margin-top: 100px;
 }
-.footer{
+
+.footer {
     text-align: center;
     background-color: white;
     padding: 120px;
 }
-.footer-title{
+
+.footer-title {
     color: #4E47FF;
     font-size: 100px;
     font-weight: 800;
     margin: 8px;
     padding: 0px;
 }
-footer .footer-div{
+
+footer .footer-div {
     display: flex;
     justify-content: center;
     gap: 48px;
 }
-.footer-para{
+
+.footer-para {
     color: rgba(137, 135, 161, 1);
     font-size: 19px;
     font-weight: 300;
     margin: 0px 330px;
 }
-.footer-last{
+
+.footer-last {
     color: rgba(137, 135, 161, 1);
     font-size: 19px;
     font-weight: 300;
 }
+
 /* no mark */
-.no-mark{
+.no-mark {
     justify-items: center;
     margin: 151px;
     padding: 40px;
     background-color: white;
     border-radius: 10px;
 }
-.no-mark-title{
+
+.no-mark-title {
     font-size: 50px;
     font-weight: bold;
     padding: none;
 }
-.no-mark-pic{
+
+.no-mark-pic {
     border-radius: 48px;
 }
-.no-mark-para{
+
+.no-mark-para {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
     margin-top: 0;
 }
-.no-mark-button{
+
+.no-mark-button {
     font-size: 16px;
     font-weight: 200;
     margin-bottom: 20px;
+}
+
+.btn-primary:hover {
+    background-color: rgb(62, 158, 255);
+    cursor: pointer;
+    color: black;
+    transition-duration: 0.4s;
+    transform: translateX(2px);
 }
